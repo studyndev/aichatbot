@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Calculator</title>
+</head>
+<body>
+    <main>
+        <label for="Num1">
+            Value One
+            <input type="number" id="Num1" placeholder="enter number">
+        </label>
+        <br>
+        <label for="Num2">
+            Value Two
+            <input type="number" id="Num2" placeholder="enter number">
+        </label>
+        <br>
+        <div id="results">
+            <div>
+                <button onclick="doAdd()">Add</button>
+                <label for="" id="Add"></label>
+                <br>
+                <button onclick="doSub()">Sub</button>
+                <label for="" id="Sub"></label>
+                <br>
+                <button onclick="doMul()">Mul</button>
+                <label for="" id="Mul"></label>
+                <br>
+                <button onclick="doDiv()">Div</button>
+                <label for="" id="Div"></label>
+            </div>
+            <button id="clear" onclick="clearAll()">Clear</button>
+        </div>
+          
+    </main>
+
+<script src="app.js"></script>
+</body>
+</html>
